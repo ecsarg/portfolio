@@ -20,7 +20,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-background.jpeg");
+    background-image: url("../portfolio/images/hero-background.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ a {
     height: 200px;
     width: 100%;
     margin: 0;
-    background-image: url("../images/hero-background.jpeg");
+    background-image: url("../portfolio/images/hero-background.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -4,7 +4,7 @@
 <!-- header -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css">
     <title>Development Portfolio</title>
 </head>
@@ -13,7 +13,7 @@
 <body>
 
     <!-- navigation -->
-    <header class="header">
+    <header>
         <h1>
             <a href="#">Ellie Sargent</a></h1>
         <nav>
@@ -41,25 +41,25 @@
     <section class="hero"><span>Welcome to My Site!</span></section>
         <main class="content">
             <!-- About Me -->
-            <article id="about-me" class="about-me">
+            <article id="flex-row" class="about-me">
                 <h2>About Me</h2>
                     <img src="./images/about-me-photo.jpeg" alt="A picture of me" class="float-left"/>
                 <p>Hey there! I'm Ellie! I'm a Nashville, TN native who has always had a love for computers and the amazing things you can create using them. I got my start in coding during my undergrad schooling at Auburn University. I went on to enter the world of healthcare as an Occupational Therapist, but always had a nagging urge to return to technology. After researching different coding bootcamp programs, I enrolled in Vanderbilt University's. Below is my portfolio of projects I have completed. Enjoy!</p>  
             </article>
 
             <!-- My Work -->
-            <article id="my-work" class="my-work">
+            <article id="flex-row" class="my-work">
                 <h2>My Work</h2>
-                <div class="projects">
-                <a href ="https://ecsarg.github.io/run-buddy/">
-                <img alt="Run Buddy Website" src="./images/hero-bg.jpeg" width="500" height="300">
-                <div class="img-text">Run Buddy<br>HTML & CSS</div>
+                <div class="run-buddy">
+                    <a href="https://ecsarg.github.io/run-buddy/">
+                    <img alt="Run Buddy Website" title="Run Buddy Website" src="./images/hero-bg.jpeg" style="width:100%">
+                    <div class="bottom-right">Run Buddy<br>HTML & CSS</div>
                  </a> 
                  </div>
             </article>
 
             <!-- My Resume -->
-            <article id="resume" class="resume">
+            <article id="flex-row" class="resume">
                 <h2>My Resume</h2>
                 <a href="https://docs.google.com/document/d/1sd75oHN_wFWRRDi7fC_YPrjNb_LfVtjg5D1-f_dt8eM/edit?usp=sharing">
                     Click here to view my resume!
@@ -67,12 +67,12 @@
             </article>
 
             <!-- Contact Me -->
-            <article id="contact-me" class="contact-me">
+            <article id="flex-row" class="contact-me">
                 <h2>Contact Me</h2>
                 <form>
                     <label for="contact-name">Your Name</label>
                     <input type="text" id="contact-name" placeholder="Your Name">
-
+    
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="Message"></textarea>
 

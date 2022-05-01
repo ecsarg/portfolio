@@ -8,7 +8,7 @@ A website for future employers to view my work, resume, and learn about me.
 * CSS
 
 ## Website
-https://github.com/ecsarg/portfolio.git
+https://ecsarg.github.io/portfolio/
 
 ## Contribution
 Made with ❤️ by Ellie Sargent
